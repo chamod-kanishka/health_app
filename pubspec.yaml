@@ -11,8 +11,8 @@ dependencies:
     sdk: flutter
   fl_chart: ^0.35.0
   cupertino_icons: ^1.0.6
-  audioplayers: ^6.0.0
-
+  # audioplayers: ^1.2.0
+  beep_player: ^0.0.1
 
 dev_dependencies:
   flutter_test:
@@ -24,4 +24,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/health-care-logo.png
-    - assets/beep.mp3
+    - assets/beep.wav

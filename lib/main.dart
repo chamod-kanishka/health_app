@@ -1,6 +1,19 @@
 import 'package:flutter/material.dart';
-import 'health_app.dart';
+import 'screens/health_home_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(HealthApp());
+}
+
+class HealthApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Health App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HealthHomeScreen(),
+    );
+  }
 }
